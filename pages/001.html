@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+   <html>
+      <body>
+		<body bgcolor="black" style="color:white">
+          <h1><div style="text-align: center;">Project Bug & YARI İLETKENLER VE TRANSİSTÖRLER</div></h1>
+		  <title>001</title>
+         <p>
+			
+			<h2><a href="https://www.github.com/why20w18" target="_blank">@why20w18</a></h2>
+			Oluşturulma:18.01.2024<br></h2>
+			Medium kullanmak bizi bozar :D<br>
+			<a href="https://why20w18.github.io/main.html" target="">Anasayfaya Dön</a>
+			<br>
+			<br>
+			<br>
+			<br>
+			UYARI:Yazılar kayıyorsa ctrl+fare orta tuşu ile ekran ölçeğini %110 veya altına ayarlayın
+			<br>
+			
+			<style>
+			a{
+            color: red;
+            text-decoration:none;
+			}
+			</style>
+			
+			<style>
+        body{
+            text-align:center;
+			}
+    
+		.container{
+            display:inline-block;
+            text-align:left; 
+				  }
+			</style>
+	
+			<div class="container">
+			<br>
+
+			<font color="green"<font size="5">PROGRAM KODU NASIL ÇALIŞIR HALE GELİR</font><br>
+			<font size="3">Programlar programlama dilleri ile yazılır ama yazdıktan sonra çalıştırılabilir hale getirilmesi için bir adım daha gereklidir yoksa TEXT olarak yazdığımız bu programları<br>
+			CPU (Central Process Unit) yani işlemcimiz nereden anlayacak ? basit bir akıl yürütmesiyle yazdığımız kodu anlayamayacağını farkedebiliyoruz çünkü programlama dillerine <br>
+			yakından bakarsanız çoğu içerdikleri komutlar ingilizce kısaltmalardan KEYWORD'lerden oluşur , bu durumda biz hep duyduğumuz sözün nereden geldiğinide tespit ettik , <br>
+			bilgisayarlar 0 ve 1'den anlar.Bilgisayar dediğimiz cihazın temelini işlemci oluşturur , işlemci ise bildiğiniz elektronik bir parçadır günümüzde milyarlarca nanometrik <br>
+			boyutta transistörden oluşurlar.Transistörler elektrik sinyallerini açıp kapatmayı sağlayan anahtarlar gibi düşünülebilir , eğer CPU simülasyonlarına bakarsanız birçok kez<br>
+			açılıp kapandıklarını görürsünüz burada açılıp kapanan şey aslında CPU'nun temelini oluşturan transistörlerdir.<br><br>
+			</font> 
+
+			
+			<font color="green"<font size="5">SAYI SİSTEMLERİ</font><br>
+			<font size="3">
+			Transistörler ile 0 ve 1'in alakası aslında burada yatıyor programlamayla alakalı kısmıda tam olarak burası. Harvard CS50 derslerine bakarsanız ilk anlatılan konu sayı sistemleridir<br>
+			0 ve 1'in binary sayı sistemini oluşturduğunu bilmek burada önemli , biz decimal yani 10'luk sayı sistemini kullanıyoruz bizim rakamlarımız 0'dan 9'a kadar yani biz tüm sayıları<br>
+			bu rakamları kullanarak temsil ediyoruz , dikkatli olursanız 10'luk sistemde 10 rakam vardır ve max rakam SAYI_SİSTEMİ-1 olarak gösterilir bizim en büyük rakamımız 9'dur<br>
+			minimum rakam ise hep 0 (sıfır)'dır , aynı mantık binary = ikili sayı sistemindede geçerlidir 2 rakamdan oluşur 0'dan başlar 1'de biter biz tüm sayıları bu iki rakamla gösteririz<br> 
+			çünkü bilgisayar bunu anlar<br><br>
+			</font>
+			
+			<font color="green" <font size="5">BİLGİSAYAR NASIL 1 VE 0'I ANLAR</font><br>
+			<font size="3">
+			En başta anlattığım olay tam burada geçerli aslında transistörler için açıp kapatma demiştik saniyede milyonlarca kez açılıp kapandıklarını söylemiştim işte transistör için <br>
+			2 durum vardır transistör ya açıktır mantıksal olarak açıklık durumunu 1 ile ifade ederiz , yada transistör kapalıdır buradada mantıksal olarak kapalılık durumunu 0 ile ifade<br>
+			ederiz , işlemciler transistörden oluştuğuna göre zorunlu olarak onlarda veriyi 0 ve 1 cinsinden alırlar , ileride transistör teknolojisi yerine yeni bir teknoloji gelişirse <br>
+			(kuantum işlemciler) gibi bu durumda 0 ve 1 olayının daha farklı bir boyuta kayacağını söylemek yanlış olmaz , düşünsenize transistör için 2 durum var ve biz gidip 10'lu sayı<br>
+			sistemi kullanıyoruz bunun için yani temelde ya transistör kapalı ya açık binary sayı sistemi bunu tam olarak ifade edebiliyor fakat biz gidip 10'lu sistemi kullanıyoruz geri kalan<br>
+			8 rakam ne işe yarayacak transistör için üçüncü , dördüncü ... bir durum yok %75 kapalı , %50 açık gibi bir durum söz konusu değil her şey çok kesin , bilgisayarlarda random sayı <br>
+			üretmekte bu sebeple zordur fakat konuyla alakasız<br>
+			<br>
+			</font>
+			
+			<font color="green" <font size="5">YARI İLETKENLER (SEMICONDUCTOR)</font><br>
+			Öncelikle belirteyim burada çok fazla detay vermeyeceğim çünkü yazının asıl amacı teknik detaylarda boğulmak değil , buradaki asıl amaç CPU'nun işleme biçimini anlamak.<br>
+			Transistörlerin öncesini anlayabilmek için yarı iletken kavramını az buçuk bilmek gerekir , yarı iletken = iletkenlik derecesi metal ve yalıtkanlar(ametaller) arasında <br>
+			bulunan malzeme diyebiliriz CPU teknolojisinde neden yarı iletkenler kullanılıyor ? eğer metal kullanılırsa elektriği çok iyi iletir fakat bu sefer iletkenliği kontrol etmek çok <br> 
+			zorlaşır ametal(yalıtkan) kullanılırsa bu sefer elektriği çok kötü iletir elektronik cihaz yapmanın mantığı kalmaz , bu iş için biçilmiş kaftan yarı iletkenlerdir çünkü bunlar temelinde <br>
+			yalıtkan gibi davranmasına rağmen elektrik gibi dış bir etkene maruz kaldıklarında iletken olarak davranırlar tabii doğrudan alınıp kullanılmazlar bunun için iyon çiftleşmesi veya <br>
+			dopant denen işlemlerden geçirilirler neden bu işlemlerden geçirilir ? elektrik iletkenliğini istenilen şekilde ayarlamak için yapılır genelde kısaca performans ve verimlilik için <br>
+			yani doğrudan basit elektronik devre elemanlarıyla yapılan transistörler günümüzde iş yapmaz doping kavramı genelde yarı iletkenler için kullanılırken dopent genel küme olarak düşünülebilir<br>
+			, yarı iletkenler (semiconductor) doping işleminden sonra 2 farklı türde ele alınır n-type ve p-type n-type ve p-type'ı neden anlattım çünkü artık bu hale gelmiş yarı iletkenler<br>
+			diyot'u oluşturuyor diyot nedir akımı bir yönde geçiren diğer yönde geçirmeyen bileşendir denebilir , bunu neden anlattım çünkü transistör dediğimiz yapılar diyotlardan türemiştir<br>
+			yaygınlığına göre yarı iletkenler silikon galyum arsenit ve germanyum şeklindedir.
+			
+			<br><br>
+			
+			<font color="green"<font size="5">TRANSİSTÖR BOYUTLARI</font><br>
+			<font size="3">
+			Yarı iletken cihazlarda başı transistör çekiyor ilk
+			paragrafta dediğim gibi CPU'nun temelinide transistör dolayısıyla yarı iletkenler oluşturuyor , ilk <a href="https://www.inventingeurope.eu/wp-content/themes/inveur/img/objects/1382-blinded-by-success.jpg" target="_blank"> transistörlere</a> bakarsanız ne<br>
+			kadar büyük olduğunu görebilirsiniz ilk paragraftaysa CPU içinde milyarlarca transistör bulunduğundan bahsetmiştim , boyutlarının zamanla küçültüğü aşikar peki neden küçültülmeye <br>
+			çalışılıyor çünkü CPU yonga setine daha fazla transistör sığdırmak lazım ki performans artsın CPU performansı ve transistör arasında doğru orantı var , yonga setine daha fazla <br>
+			transistör sığdırmanın ilk kuralıda çok çok küçük boyutlarda üretim yapabilmekten geçiyor , transistör sınıflandırırken 2 türde inceleriz BJT ve FET , bunlar arasındaki farka<br>
+			şimdilik girmeye gerek yok , BJT'ler Bipolar Transistör manasına gelirken (Bipolar Junction Transistor) , FET'ler Alan Etkisi Transistörleri manasına gelir (Field Effect Transistor)<br>
+			transistör boyutundan bahsederken nereden buraya geldik demeyin MOSFET(Metal Oxide Field Effect Transistor) 'lerin boyutundan örnek vermem için MOSFET nedir en azından tahmin<br>
+			edilebilir hale gelmesi gerekiyordu , 1968 yılında MOSFET'in boyutu 20 MİKROMETRE (20.000 NANOMETREYE EŞİT) , 2022 yılında MOSFET'in boyutu 3 NANOMETRE aradaki farkı görebiliyorsunuz<br>
+			işte buradada bir sıkıntı meydana geliyor artık küçültmenin sonuna doğru mu yaklaşıyoruz ? benim görüşüm evet fakat ne kadar sürede yeni bir teknoloji ortaya çıkar bunun hakkında<br>
+			çok fikrim yok , Intel'in kurucularından Gordon Moore'un bir yasası var , MOORE Yasası bu yasa kısaca maliyet sabit kalırken her yıl transistör sayısı 2 katına çıkar der , günümüzde<br>
+			artık teknoloji gelişimi içinde kullanılsada çıkış noktası budur ve biz bu yasanın sonuna doğru yaklaşıyoruz. Sonuna yaklaşma sebebi basit örneğin bitkilerde bulunan kloraplast hücresi<br>
+			5 MİKROMETRE , 10 hidrojen atomunun çapı 1 NANOMETRE bunlara bakarak transistörü ne kadar küçülttüğümüzü anlayabilirsiniz bu kadar küçültmenin sonunda kuantum mekaniği devreye girmeye<br>
+			başlıyor böyle bir durumdaysa en başta anlattığım transistörün açık olması 1 (High Voltaj) ve kapalı olması 0 (Low Voltaj) durumunu artık sağlayamıyoruz çünkü transistör 1'ken elektron<br>
+			akışı sağlanır 0'ken elektron akışı sağlanmaz ama bu kadar küçük boyutlara inildiğinde Kuantum Tünelleme denen sıkıntıyla başbaşa kalıyoruz , en basit haliyle Kuantum Tünelleme<br>
+			koyulan bariyeri(engeli) geçmemesi gerekirken geçebilmesidir , bariyeri geçen şey elektronun kendisidir , bariyeri aşmasınaysa Kuantum Tünelleme diyoruz ama asıl sıkıntı bariyeri<br>
+			elektron aştıktan sonra başlar çünkü bariyeri transistör 0 durumundayken kapalıyken geçer (aslında elektron akışı yokken) , elektron diğer transistörlere gidebilir diğer devre<br>
+			elemanlarınada gidebilir böyle bir durumda istenmeyen akımlar yada kısa devre gibi problemler ortaya çıkabilir ki bu kadar küçük boyutlardaki ısınma problemleri vs. ise çok daha zahmetli<br>
+			işlerdir. İşte bu sebeple bu teknolojinin sonuna doğru yaklaştığımızı düşünüyorum.
+			
+			</font><br><br>
+			
+			<font color="green"<font size="5"></font><br>
+			<font size="3">
+			
+			
+			
+			
+			</font>
+			
+			
+			
+			
+			</div>
+         </p>
+		 
+		 <p><br><br><br><br><br>
+		 <a href="https://www.github.com/why20w18" target="_blank">@why20w18</a> tarafından oluşturulmuş Türkçe kaynakların hepsi
+			, kullanırken kaynak belirtmeyi unutmayın herkes faydalanabilsin.
+		 </p>
+		 
+		 <style>
+         body{
+            font-family:monospace;
+		   	 }
+		</style>
+		 
+		 
+		 
+		 
+      </body>
+   </html> 
