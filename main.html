@@ -1,29 +1,27 @@
 <!DOCTYPE html>
-   <html>
-      <body>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	      
-		<body bgcolor="black" style="color:white">
-          <h1><div style="text-align: center;">Project Bug Anasayfa</div></h1>
-		  <title>Bug</title>
-         <p>
-			
-			<h2><a href="https://www.github.com/why20w18" target="_blank">@why20w18</a></h2>
-			Oluşturulma:14.01.2024<br></h2>
-			
-			Sayfa:main.html
-			<br>
-			
-			<style>
-			a{
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Proje Bug</title>
+     
+ <style>
+         body {
+            color: white;
+            background-color: black;
+            text-align: center;
+            font-family: monospace;
+         }
+         a {
             color: lime;
-            text-decoration:none;
-			}
-			</style>
-			
-			<style>
+            text-decoration: none;
+         }
+         #ascii-art {
+            margin-bottom: 25px; 
+         }
+</style>
+
+<style>
         body{
             text-align:center;
 			}
@@ -32,35 +30,157 @@
             display:inline-block;
             text-align:left; 
 				  }
-			</style>
+</style>
+
+<style>
+ #myButton {
+            position: ;
+            top: 10px;
+            left: 10px;
+            background-color: transparent;
+            color: #f34723;
+            border: 1px solid white;
+            padding: 8px 5px;
+            cursor: pointer;
+        }
+
+        #themeText {
+            margin-top: 10px;
+            color: #ccc; 
+        }
+
+        body.clicked {
+            background-color: white;
+            color: black;
+        }
+
+        body.clicked a {
+            color: #0000c8;
+            text-decoration: none;
+        }
+
+        body.light {
+            background-color: white;
+            color: black;
 	
-			<div class="container">
-			<br>
-			<h3>
-			000-Project Bug<br>
-			<a href="https://why20w18.github.io/pages/001.html" target="" style="color: cyan;">001-Yarı İletkenler ve Transistörler</a>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			
-			</h3>
-			
-			</div>
-			
-         </p>
-		 
-		 <p>
-		 <a href="https://www.github.com/why20w18" target="_blank">@why20w18</a> tarafından oluşturulmuş Türkçe kaynakların hepsi
-			, kullanırken kaynak belirtmeyi unutmayın herkes faydalanabilsin.
-		 </p>
-		 
-		 <style>
-         body{
-            font-family:monospace;
-		   	 }
-		</style>
-		 
-      </body>
-   </html> 
+        }
+
+        body.dark {
+            background-color: black;
+            color: white;
+        }
+
+        body.gray {
+            background-color: gray;
+            color: black;
+	 a { color: white; }
+        }
+
+        body.eyeless {
+            background-color: #00008B;
+            color: white;
+            font-size: 26px;
+            font-family: serif;
+	 a { color: cyan; }
+        }
+
+        body.flux {
+            background-color: #F0E68C;
+            color: black;
+	font-size: 18px;
+            font-family: verdana;
+            a { color: orange; }
+        }
+</style>
+
+
+
+
+   </head>
+   <body>
+      <div id="ascii-art">
+         <pre>
+██████╗ ██╗   ██╗ ██████╗     ██████╗ ██████╗  ██████╗      ██╗███████╗ ██████╗████████╗
+██╔══██╗██║   ██║██╔════╝     ██╔══██╗██╔══██╗██╔═══██╗     ██║██╔════╝██╔════╝╚══██╔══╝
+██████╔╝██║   ██║██║  ███╗    ██████╔╝██████╔╝██║   ██║     ██║█████╗  ██║        ██║   
+██╔══██╗██║   ██║██║   ██║    ██╔═══╝ ██╔══██╗██║   ██║██   ██║██╔══╝  ██║        ██║   
+██████╔╝╚██████╔╝╚██████╔╝    ██║     ██║  ██║╚██████╔╝╚█████╔╝███████╗╚██████╗   ██║   
+╚═════╝  ╚═════╝  ╚═════╝     ╚═╝     ╚═╝  ╚═╝ ╚═════╝  ╚════╝ ╚══════╝ ╚═════╝   ╚═╝   
+         </pre>
+      </div>
+      <h1>Anasayfa</h1>
+	
+    <button id="myButton" onclick="changeColors()">Tema Değiştir</button>
+        <div id="themeText"></div>
+	
+
+      <div class="container">
+         <h3>
+      <a href="https://why20w18.github.io/pages/0000.html" target="" style="color:; font-size: 20px;">0000-Panolar ve Ek Özellikler Hakkında</a><br>
+      <a href="https://why20w18.github.io/pages/1000.html" target="" style="color:; font-size: 20px;">1000-Projeler Wiki Anasayfa</a><br>
+      <a href="https://why20w18.github.io/pages/2000.html" target="" style="color:; font-size: 20px;">2000-Donanım ve Elektronik</a><br>
+      <a href="https://why20w18.github.io/pages/3000.html" target="" style="color:; font-size: 20px;">3000-Programlama</a><br>
+      <a href="https://why20w18.github.io/pages/5000.html" target="" style="color:; font-size: 20px;">5000-Siber Güvenlik ve Network</a><br>
+      <a href="https://why20w18.github.io/pages/7000.html" target="" style="color:; font-size: 20px;">7000-Tersine Mühendislik</a><br>
+      <a href="https://why20w18.github.io/pages/8000.html" target="" style="color:; font-size: 20px;">8000-Linux</a><br>
+      <a href="https://why20w18.github.io/pages/9000.html" target="" style="color:; font-size: 20px;">9000-AI</a><br>
+          
+
+
+
+
+
+
+
+         </h3>
+      </div>
+      <p>
+         <a href="https://www.github.com/why20w18" target="_blank">@why20w18</a> tarafından oluşturulmuş Türkçe kaynakların hepsi, kullanırken kaynak belirtmeyi unutmayın herkes faydalanabilsin.
+      </p>
+
+
+
+
+
+ <script>	
+        function changeColors() {
+            const body = document.body;
+            const themeText = document.getElementById('themeText');
+
+            if (body.classList.contains('clicked')) {
+                body.classList.replace('clicked', 'dark');
+                themeText.innerText = 'VARSAYILAN TEMA';
+            } else if (body.classList.contains('dark')) {
+                body.classList.replace('dark', 'gray');
+                themeText.innerText = 'GRİ TEMA';
+            } else if (body.classList.contains('gray')) {
+                body.classList.replace('gray', 'eyeless');
+                themeText.innerText = 'BOYUT TEMA';
+            } else if (body.classList.contains('eyeless')) {
+                body.classList.replace('eyeless','flux');
+				themeText.innerText = 'FLUX TEMA';
+            } else if (body.classList.contains('flux')) {
+                body.classList.remove('flux');
+                themeText.innerText = '';
+            } else {
+                body.classList.add('clicked');
+                themeText.innerText = 'BEYAZ TEMA';
+            }
+        }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </body>
+</html>
+
